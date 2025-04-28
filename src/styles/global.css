@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: var(--font);
+    
+}
+
+:root{
+
+    --primary-color: #23A6F0;
+    --secondary-color-1: #40BB15;
+    --secondary-color-2: #3C403D;
+
+    --primary-text-color: #252B42;
+    --second-text-color: #737373;
+    --light-text-color: #FFFFFF;
+    --light-gray-1: #FAFAFA;
+    --light-gray-2: #ECECEC;
+
+    --disabled-element-color: #8EC2F2;
+
+
+    --font: "Montserrat"
+    
+}
