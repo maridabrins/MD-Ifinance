@@ -27,3 +27,31 @@ body{
     --font: "Montserrat"
     
 }
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 57px;
+    color: var(--light-text-color);
+}
+
+p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--light-text-color);
+    letter-spacing: 0.2px;
+}
+
+
+.primary-button{
+    background-color: var(--primary-color);
+    padding: 15px 25px;
+    color: var(--light-text-color);
+    border-radius: 5px;
+    font-size: var(--font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
