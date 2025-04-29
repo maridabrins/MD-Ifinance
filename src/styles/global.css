@@ -52,7 +52,13 @@ li a{
     color: var(--light-text-color);
 }
 
-
+button{
+    color: var(--light-text-color);
+    border-radius: 5px;
+    font-size: var(--font);
+    font-weight: 600;
+    font-size: 16px; 
+}
 .primary-button{
     background-color: var(--primary-color);
     padding: 15px 25px;
