@@ -1,1 +1,67 @@
 @import url("./global.css");
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  padding: 20px 15px;
+}
+header h3{
+    color: var(--light-text-color);
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.nav-header ul{
+    display: flex;
+    gap: 21px;
+    list-style: none;
+    outline: none;
+}
+
+.nav-header a:hover{
+    color: var(--second-text-color);
+    
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-login{
+    background: none;
+    color: var(--light-text-color);
+    font-weight: 700;
+    font-family: var(--font);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-login:hover{
+    color: var(--primary-color);
+}
+
+.primary-button{
+    transition: 0.5s;
+}
+
+header .primary-button:hover{
+    background-color: var(--light-text-color);
+    color: var(--primary-color);
+}
+
+header img{
+    margin-left: 15px;
+    
+}
+
+header .primary-button:hover img {
+    filter: invert(29%) sepia(99%) saturate(746%) hue-rotate(180deg) brightness(96%) contrast(95%);
+}
+
+
+
