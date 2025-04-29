@@ -6,7 +6,7 @@
 
 body{
     font-family: var(--font);
-    
+    background-color: var(--primary-text-color);
 }
 
 :root{
@@ -15,7 +15,7 @@ body{
     --secondary-color-1: #40BB15;
     --secondary-color-2: #3C403D;
 
-    --primary-text-color: #252B42;
+    --primary-text-color: #252B42; 
     --second-text-color: #737373;
     --light-text-color: #FFFFFF;
     --light-gray-1: #FAFAFA;
@@ -30,7 +30,7 @@ body{
 
 h2{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 57px;
     color: var(--light-text-color);
 }
@@ -41,6 +41,15 @@ p{
     line-height: 20px;
     color: var(--light-text-color);
     letter-spacing: 0.2px;
+}
+
+li a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: var(--light-text-color);
 }
 
 
@@ -54,4 +63,5 @@ p{
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.2px;
+    cursor: pointer;
 }
