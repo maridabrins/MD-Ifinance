@@ -118,7 +118,6 @@ p{
 }
 .better-content h2{
     width: 451px;
-    margin-bottom: 10px;
 }
 .active{
     color: var(--second-text-color);
@@ -152,6 +151,53 @@ p{
     font-size: 14px;
     width: 213px;
 }
+
+
+.clients-says{
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-says p{
+    text-align: center;
+}
+
+.clients-card{
+    text-align: center;
+    padding: 112px 151px;
+}
+
+.clients-card article{
+    background-color: var(--light-text-color);
+    padding: 40px 155.5px;
+    border-radius: 5px;
+}
+
+.card-content p{
+    margin-top: 30px;
+    color: var(--second-text-color);
+    width: 433px;
+}
+
+.group-stars{
+    margin: 15px 0;
+}
+
+.card-client-info h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.card-client-info p{
+    font-weight: 600;
+    color: var(--second-text-color);
+    margin: 0 auto;
+}
+
+
 
 
 
