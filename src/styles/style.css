@@ -198,6 +198,51 @@ p{
 }
 
 
+.download-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 55.5px;
+}
+
+.download-app p{
+    width: 470px;
+    margin-bottom: 50px;
+}
+
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.info-app a{
+    text-decoration: none;
+}
+.info-app .btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--light-text-color);
+    border-radius: 10px;
+    gap: 25px;
+    padding: 18px 28px  ;
+}
+
+.app-button{
+    width: 116px;
+}
+
+.app-button p{
+    width: 116px;
+    margin-bottom: 0px;
+}
+.app-button h3{
+    font-size: 16px;
+}
+
 
 
 
