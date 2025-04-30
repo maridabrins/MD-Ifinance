@@ -33,6 +33,7 @@ h2{
     font-weight: 700;
     line-height: 57px;
     color: var(--light-text-color);
+    margin-bottom: 10px;
 }
 
 p{
