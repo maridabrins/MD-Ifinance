@@ -99,8 +99,60 @@ p{
 
 .main-buttons .btn-login {
     background-color: var(--primary-text-color);
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--light-text-color);
 }
+
+
+.better-strategy{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.better-content{
+    padding: 45px 180.5px;
+    text-align: center;
+    margin-bottom: 24px;
+    
+}
+.better-content h2{
+    width: 451px;
+    margin-bottom: 10px;
+}
+.active{
+    color: var(--second-text-color);
+    width: 470px;
+    align-items: center;
+}
+
+.better-infos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.better-itens{
+    border: 1px solid var(--light-text-color);
+    padding: 35px 20px;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.itens-info h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--light-text-color);
+}
+.itens-info p{
+    font-size: 14px;
+    width: 213px;
+}
+
 
 
 
