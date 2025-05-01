@@ -146,6 +146,7 @@ p{
     line-height: 24px;
     letter-spacing: 0.1px;
     color: var(--light-text-color);
+    text-transform: capitalize;
 }
 .itens-info p{
     font-size: 14px;
@@ -242,6 +243,96 @@ p{
 .app-button h3{
     font-size: 16px;
 }
+
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 160px 212.5px;
+}
+.pricing p{
+    width: 470px;
+    margin-bottom: 96px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center ;
+    align-items: start;
+    gap: 30px;
+    
+}
+
+.pricing-container article{
+    background-color: var(--light-text-color);
+    padding: 50px 49px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.pricing-container article h3{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.pricing-container article p{
+    color: var(--second-text-color);
+    width: 217px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.pricing-cards-info{
+    text-align: start;
+}
+
+.pricing-cards-payment{
+    width: 164px;
+}
+
+
+
+.price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 25px;
+    color: var(--primary-color);
+    font-size: 40px;
+    gap: 10px;
+}
+.price-infos{
+    text-align: start;
+}
+.price-infos h5{
+    font-size: 16px;
+}
+.price-infos h6{
+    color: var(--disabled-element-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+.pricing-cards-payment button{
+    padding: 15px 40px ;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
