@@ -345,6 +345,44 @@ p{
 }
 
 
+.book-appointment{
+    display: flex;
+    padding: 101px 195px;
+    padding-top: 0 ;
+    margin-top: 51px;
+}
+
+.book-container{
+    padding: 50px 82.5px;
+}
+
+
+.card-item{
+    display: flex;
+    padding: 50px 0;
+    justify-content: center
+}
+.card-form{
+    padding: 40px 50px;
+    background-color: var(--light-text-color);
+    
+}
+
+.card-form h2{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.card-form-content{
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
