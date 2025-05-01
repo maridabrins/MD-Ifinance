@@ -323,6 +323,27 @@ p{
     font-size: 14px;
 }
 
+.world{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 196px;
+    gap: 30px;
+}
+.world-content{
+    text-align: start;
+    padding: 50px 147px;
+    padding-left: 0px;
+    
+}
+.world-content h2{
+    width: 476px;
+    margin-bottom: 15px;
+}
+.world-content p{
+    width: 455px;
+}
+
 
 
 
