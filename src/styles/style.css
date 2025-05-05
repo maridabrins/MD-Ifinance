@@ -430,6 +430,83 @@ form button{
 }
 
 
+footer{
+    padding-top: 5px;
+    background-color: var(--light-gray-1);
+}
+.footer-information{
+    background-color: var(--primary-text-color);
+    display: flex;
+    justify-content: center;
+    padding: 80px 232px;
+    gap: 30px;
+}
+.footer-information h2{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+
+.footer-information h2, .footer-information p{
+    width: 213px;
+    margin-bottom: 25px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 94px;
+}
+
+.social-icons{
+    transition: 0.5s;
+}
+.social-icons:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.footer-navigation h3{
+    color: var(--light-text-color);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    width: 177px;
+    margin-bottom: 20px;
+}
+.nav-links{
+    list-style: none;
+    padding: 0;
+}
+.footer-item{
+    display: block;
+    text-decoration: none;
+    color: var(--light-text-color);
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.footer-item:hover{
+    transform: translateX(10px);
+    color: var(--primary-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.copyright p{
+    color: var(--second-text-color);
+   font-weight: 600;
+}
+
 
 
 
