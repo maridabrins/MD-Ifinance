@@ -346,9 +346,8 @@ p{
 
 
 .book-appointment{
-    display: flex;
     padding: 101px 195px;
-    padding-top: 0 ;
+    padding-top: 0;
     margin-top: 51px;
 }
 
@@ -360,7 +359,12 @@ p{
 .card-item{
     display: flex;
     padding: 50px 0;
-    justify-content: center
+    justify-content: center;
+}
+
+.card-item img{
+    position: relative ;
+    left: 2px;
 }
 .card-form{
     padding: 40px 50px;
@@ -375,14 +379,58 @@ p{
     line-height: 32px;
     margin-bottom: 40px;
 }
-.card-form-content{
+
+.form-content{
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
-.form-group{
+
+
+.form-info{
     display: flex;
     flex-direction: column;
+    
 }
+
+label {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--primary-text-color);
+}
+
+input, select{
+    width: 510px;
+    padding: 11px 21px;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: var(--second-text-color);
+    font-size: 14px;
+    line-height: 28px;
+}
+select{
+    color: var(--second-text-color);
+    font-size: 14px;
+    line-height: 28px;
+    padding: 11px 21px;
+}
+
+form button{
+    text-transform: capitalize;
+    padding: 15px 40px;
+    width: 510px;
+}
+
+
+
 
 
 
