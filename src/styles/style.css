@@ -64,6 +64,20 @@ header .primary-button:hover img {
 }
 
 
+.menu-toggle{
+    display: none;
+    
+}
+
+.menu-toggle span{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 3px 0;
+}
+
+
+
 main{
     display: flex;
     justify-content: center;
@@ -505,6 +519,228 @@ footer{
 .copyright p{
     color: var(--second-text-color);
    font-weight: 600;
+}
+
+
+@media (max-width: 834px){
+
+header{
+    gap: 50px ;
+}
+main{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+main img{
+width: 100%;
+margin-bottom: 40px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+.main-content{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-content p{
+    text-align: center;
+    width: 100%;
+}
+
+.better-strategy{
+    margin-bottom: 40px;
+}
+.active{
+margin-top: 30px;
+font-size: 18px;
+}
+.better-infos{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.clients-says{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.clients-says p{
+    font-size: 18px;
+    width: 90%
+}
+
+.download-app{
+    margin-top: 0;
+    padding: 40px 55.5px;
+}
+.download-app p{
+    font-size: 18px;
+    width: 90%
+}
+
+.apps{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.pricing{
+    padding: 80px 212.5px;
+}
+.pricing p{
+    font-size: 18px;
+    width: 100%
+}
+
+.pricing-container article{
+    flex-direction: column;
+}
+
+.world{
+    flex-direction: column;
+}
+
+.world-content{
+    text-align: center;
+    padding: 0;
+    width: 90%;
+}
+.world-content p{
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+footer{
+    padding: 0;
+}
+.footer-information{
+    gap: 30px;
+}
+.footer-navigation{
+    gap: 10px;
+ }
+
+.copyright{
+    text-align: center;
+}
+
+}
+
+@media (max-width: 480px){
+    .nav-header, .header-buttons{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .better-strategy h2{
+        font-size: 27px;
+        line-height: 35px;
+
+    }
+
+    .better-strategy p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .better-infos{
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+
+    .clients-says h2{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .clients-says p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-content p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .download-app h2{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .download-app p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .pricing p{
+       width: 300px;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+    }
+
+    .world{
+        padding: 0;
+      
+    }
+
+    .world-content{
+        padding: 0;
+        margin: 0;
+    }
+
+    .world-content h2{
+        text-align: center;
+        margin: 0;
+        
+    }
+
+
+    .book-appointment img{
+        display: none;
+    }
+
+    .book-appointment{
+        align-items: center;
+        padding: 50px 50px;
+    }
+
+  input,select{
+    width: 300px;
+  }
+
+  .footer-information{
+    padding: 60px 30px;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-navigation{
+    flex-direction: column;
+    align-items: start;
+}
+
+.copyright{
+    font-size: 12px;
+}
 }
 
 
