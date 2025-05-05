@@ -146,12 +146,19 @@ p{
     margin-bottom: 30px;
 }
 
+
+
 .better-itens{
     border: 1px solid var(--light-text-color);
     padding: 35px 20px;
     display: flex;
     gap: 20px;
     align-items: start;
+    transition: 0.5s;
+}
+.better-itens:hover{
+    transform: translateY(10px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
 }
 
 .itens-info h3{
@@ -185,10 +192,18 @@ p{
     padding: 112px 151px;
 }
 
+
+
 .clients-card article{
     background-color: var(--light-text-color);
     padding: 40px 155.5px;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.clients-card article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(5, 5, 5, 0.4);
 }
 
 .card-content p{
@@ -232,6 +247,14 @@ p{
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+.info-app{
+    transition: 0.7s;
+}
+
+.info-app:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(5, 5, 5, 0.4);
 }
 .info-app a{
     text-decoration: none;
@@ -287,6 +310,12 @@ p{
     justify-content: center;
     border-radius: 10px;
     gap: 30px;
+    transition: 0.5s;
+}
+
+.pricing-container article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(5, 5, 5, 0.5);
 }
 
 .pricing-container article h3{
