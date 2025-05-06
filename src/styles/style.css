@@ -551,7 +551,7 @@ footer{
 }
 
 
-@media (max-width: 834px){
+@media (min-width: 601px) and (max-width: 834px){
 
 header{
     gap: 50px ;
@@ -634,7 +634,7 @@ font-size: 18px;
 .world-content{
     text-align: center;
     padding: 0;
-    width: 90%;
+    width: 100%;
 }
 .world-content p{
     font-size: 18px;
@@ -670,21 +670,41 @@ footer{
     }
 
 
+    main{
+        flex-direction: column-reverse;
+    }
+
+    main img{
+        width: 100%;
+    }
     h1{
         font-size: 40px;
         line-height: 40px;
-    }
-
-    .better-strategy h2{
-        font-size: 27px;
-        line-height: 35px;
-
-    }
-
-    .better-strategy p{
-        font-size: 14px;
         width: 100%;
         text-align: center;
+    }
+    main p{
+        text-align: center;
+        width: 100%;
+    }
+    .header-buttons{
+       padding: 10px;
+       width: 100%;
+       
+    
+    }
+
+   h2{
+    font-size: 25px;
+    line-height: 30px;
+    width: 100%;
+    margin: 0 auto;
+   }
+
+    p{
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .better-infos{
@@ -692,25 +712,15 @@ footer{
         gap: 15px;
     }
 
-    .clients-says h2{
-        font-size: 40px;
-        margin-bottom: 10px;
-    }
-    .clients-says p{
-        font-size: 14px;
+    .clients-says{
         width: 100%;
         text-align: center;
     }
 
-    .card-content p{
-        font-size: 14px;
-        width: 100%;
-        text-align: center;
-    }
+  
 
-    .download-app h2{
-        font-size: 34px;
-        margin-bottom: 10px;
+    .download-app{
+        padding: 25px;
     }
     .download-app p{
         font-size: 14px;
@@ -719,56 +729,105 @@ footer{
         margin-bottom: 30px;
     }
 
-    .pricing p{
-       width: 300px;
-    }
-
-    .pricing-container {
+    .apps{
         flex-direction: column;
+        gap: 20px;
     }
 
-    .world{
-        padding: 0;
-      
+
+    .pricing{
+        width: 80%;
+        margin: 0 auto;
+        padding: 25px;
     }
 
-    .world-content{
-        padding: 0;
-        margin: 0;
+    .pricing p{
+        width: 100%;
     }
 
-    .world-content h2{
-        text-align: center;
-        margin: 0;
+    .pricing-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .pricing-container article{
+        flex-direction: column;
         
     }
 
+    .world{
+       flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        
+        gap: 20px;
+        margin: 0 auto;
+    }
 
-    .book-appointment img{
+    .world-content{
+       text-align: center;
+        width: 100%;
+       margin: 0 auto;
+    }
+    .world-content h2{
+        width: 90%;
+    }
+    .world-content p{
+        width: 90%;
+    }
+
+    .world-container{
+        width: 100%;
+    }
+
+
+    .book-appointment {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .book-container {
+        padding: 20px;
+    }
+
+    .card-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card-item img {
         display: none;
     }
 
-    .book-appointment{
-        align-items: center;
-        padding: 50px 50px;
+    .card-form {
+        padding: 20px;
+        width: 100%;
     }
 
-  input,select{
-    width: 300px;
-  }
+    .form-info input,
+    .form-info select,
+    form button {
+        width: 100%;
+    }
 
+   
   .footer-information{
     padding: 60px 30px;
     flex-direction: column;
     align-items: start;
+    gap: 30px;
 }
 .footer-navigation{
     flex-direction: column;
     align-items: start;
 }
 
+.footer-navigation{
+    gap: 25px;
+}
 .copyright{
-    font-size: 12px;
+   text-align: center;
 }
 }
 
