@@ -46,7 +46,7 @@ Ifinance é um projeto desenvolvido com base em um protótipo do Figma, com o ob
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Tela](https://github.com/maridabrins/MD-Ifinance/blob/main/Ifinance-thumb.png)<br>
+![Tela](https://raw.githubusercontent.com/maridabrins/MD-Ifinance/refs/heads/main/finance-thumb.png)<br>
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE COMO EXECUTAR O PROJETO -->
